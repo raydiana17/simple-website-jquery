@@ -1,0 +1,160 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	color: #201b2d;
+	font-size: 15px;
+	padding: 0;
+	margin:0;
+}
+
+div, p, input, button, form, span, a, ul, li{
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+font-weight: 900;
+}
+p{
+	line-height: 1.66em;
+}
+
+.cont{
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.header{
+	background: #99CFF3;
+background: -webkit-linear-gradient(top left, #99CFF3, #6CDF2B);
+background: -moz-linear-gradient(top left, #99CFF3, #6CDF2B);
+background: linear-gradient(to bottom right, #99CFF3, #6CDF2B);
+padding-top: 100px;
+color: #fff;
+padding-bottom: 225px;
+}
+
+.wrap{
+	display: flex;
+	justify-content: space-between;
+}
+
+.offer{
+	width: 610px;
+	margin-top: 176px;
+}
+
+.title{
+	font-size: 37px;
+}
+
+.desktop{
+	width: 550px;
+	margin-top: 72px;
+}
+
+.intro{
+	margin-bottom: 37px;
+	margin-top: 30px;
+	width: 380px;
+}
+
+.title span{
+	font-size: 59px;
+}
+
+.btn{
+	font-family: 'Montserrat', sans-serif;
+	background: #e8cc41;
+	color: #fff;
+	border-radius: 100px;
+	display: block; 
+	width: 205px;
+	padding: 20px 0;
+	text-align: center;
+	text-decoration: none ;
+	transition: all 0.5s ease;
+}
+ 
+ .btn:hover{
+ -moz-box-shadow:0 0 30px #fff;
+-webkit-box-shadow:0 0 30px #fff;
+box-shadow:0 0 30px #fff;
+transform: scale(1.1);
+ }
+.learn{
+	padding-top: 108px;
+	padding-bottom: 128px;
+} 
+
+.sectit{
+	text-align: center; 
+	font-size: 38px;
+}
+
+.skills{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 70px;
+}
+.skill1{
+	width: 300px;
+	background: url('img/icon1.jpg') no-repeat center top;
+	
+}
+
+.sktit{
+	margin-top: 110px;
+	font-size: 18px;
+	text-align: center;
+}
+.sktext{
+	text-align: center;
+	margin-top: 7px;
+}
+.skill2{
+	width: 300px;
+	background: url('img/icon2.jpg') no-repeat center top;
+}
+.skill3{
+	width: 300px;
+	background: url('img/icon3.jpg') no-repeat center top;
+}
+
+.mail{
+	background: #54bc76;
+	padding-top: 173px;
+	height: 600px;
+}
+.input{
+	width: 474px;
+	border: 1px solid #54bc76;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+border-radius: 100px;
+height: 54px;
+display: block;
+margin-bottom: 15px;
+text-align: 10px;
+padding-left: 15px;
+}
+.btn-form{
+	border: 0;
+	cursor: pointer;
+	width: 474px;
+	text-align: center;
+	font-size: 22px;
+}
+.form{
+	margin: 30px;
+	position: absolute;
+	left: 30%;
+}
+.cred{
+	font-size: 14px;
+	color: #54bc76;
+	text-align: center;
+}
+.footer{
+	padding: 33px 0;
+}
